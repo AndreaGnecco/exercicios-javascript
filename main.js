@@ -28,16 +28,25 @@
 
 // document.write(numero * 2);
 
-// ----------- EXERCICIO 04 - VARIAVEIS SIMPLES COM PROPRIEDADES -----------
+// ----------- EXERCICIO 04 - VARIAVEIS SIMPLES -----------
 
-var pessoa = {
-    nome : prompt('Digite seu nome'),
-    peso : parseFloat(prompt('Digite seu peso em kg')),
-    altura : prompt('Digite sua altura')
-};
+// var nome = prompt('Digite seu nome');
+// var peso = parseFloat(prompt('Digite seu peso em kg'));
+// var altura = prompt('Digite sua altura');
 
-var imc;
-imc = pessoa.peso / (pessoa.altura * pessoa.altura);
-altura = parseFloat(altura);
+// var imc = peso / (altura * altura);
 
-document.write(pessoa.nome + ', Seu IMC é: ' + imc);
+// document.write(nome + ', seu IMC é ' + imc);
+
+// ----------- EXERCICIO 05 - VARIAVEIS SIMPLES -----------
+
+// var medida = prompt('Digite a medida em centímetros');
+// medida = medida / 2.5;
+
+// document.write(medida + 'polegadas');
+
+// ----------- EXERCICIO 06 - VARIAVEIS SIMPLES -----------
+
+
+
+
