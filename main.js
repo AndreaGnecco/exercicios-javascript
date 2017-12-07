@@ -33,9 +33,11 @@
 var pessoa = {
     nome : prompt('Digite seu nome'),
     peso : parseFloat(prompt('Digite seu peso em kg')),
-    altura : parseFloat(prompt('Digite sua altura em centímetros'))
+    altura : prompt('Digite sua altura')
 };
 
-var imc = pessoa.peso / pessoa.altura * pessoa.altura;
+var imc;
+imc = pessoa.peso / (pessoa.altura * pessoa.altura);
+altura = parseFloat(altura);
 
 document.write(pessoa.nome + ', Seu IMC é: ' + imc);
