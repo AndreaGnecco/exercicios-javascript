@@ -34,7 +34,7 @@
 // var peso = parseFloat(prompt('Digite seu peso em kg'));
 // var altura = prompt('Digite sua altura');
 
-// var imc = peso / (altura * altura);
+// var imc = peso / (altura ** 2);
 
 // document.write(nome + ', seu IMC é ' + imc);
 
@@ -43,10 +43,96 @@
 // var medida = prompt('Digite a medida em centímetros');
 // medida = medida / 2.5;
 
-// document.write(medida + 'polegadas');
+// document.write(medida + 'polegada(s)');
 
 // ----------- EXERCICIO 06 - VARIAVEIS SIMPLES -----------
 
+// var medida = prompt('Digite a medida');
+// medida = medida * 2.5;
 
+// document.write(medida + ' centímetro(s)')
 
+// ----------- EXERCICIO 07 - VARIAVEIS SIMPLES -----------
 
+// var nome = prompt('Digite seu nome');
+// var cargo = prompt('Digite seu cargo');
+// var salario = parseFloat(prompt('Digite seu salário'));
+// var novoSalario;
+
+// novoSalario = salario * 0.1 + (salario);
+
+// document.write(nome + ', ' + cargo + ', ganha ' + novoSalario);
+
+// ----------- EXERCICIO 08 - IF SIMPLES -----------
+
+// var nota1 = parseFloat(prompt('Digite sua primeira nota'));
+// var nota2 = parseFloat(prompt('Digite sua segunda nota'));
+// var nota3 = parseFloat(prompt('Digite sua terceira nota'));
+// var nota4 = parseFloat(prompt('Digite sua quarta nota'));
+
+// var media = (nota1 + nota2 + nota3 + nota4) / 4
+
+// if(media >= 7.0){
+//     alert('Aprovado!');
+// } else {
+//     alert('Reprovado!');
+// }
+
+// document.write('fim do programa');
+
+// ----------- EXERCICIO 09 e 10 - IF SIMPLES -----------
+
+// var sal = parseFloat(prompt('Digite seu salário em reais'));
+
+// if(sal < 500){
+//     sal = sal + (sal * 0.3);
+//     document.write(sal);
+// } else {
+//     document.write('Desculpe, seu salário é igual ou superior a 500 reais.');
+// }
+
+// ----------- EXERCICIO 11 - IF ENCADEADO -----------
+
+// var num = parseInt(prompt('Digite um número'));
+
+// if(num < 0){
+//     alert('NEGATIVO');
+// } else if(num > 0){
+//     alert('POSITIVO');
+// } else if(num == 0){
+//     alert('ZERO');
+// }
+
+// ----------- EXERCICIO 12 - IF SIMPLES -----------
+
+// var num = parseFloat(prompt('Digite um número diferente de zero'));
+
+// if(num % 2 == 0){
+//     alert('Número par');
+// } else{
+//      alert('Número ímpar');
+// } 
+
+// ----------- EXERCICIO 13 - IF SIMPLES -----------
+
+// var num = parseFloat(prompt('Digite um número diferente de zero'));
+
+// if(num % 2 == 0){
+//     document.write(num);
+// } else{
+//     document.write(' ');
+// }
+
+// ----------- EXERCICIO 14 - IF SIMPLES -----------
+
+var codigo = parseFloat(prompt('Digite: \n1 = Sul; \n2 = Norte; \n3 = Leste; \n4 = Oeste; \n5 ou 6 = Nordeste; \n7, 8 ou 9 = Sul; \n10 a 20 = Centro-Oeste, \n21 a 30 = Sem definição.'));
+
+if(codigo = 1){
+    document.write('Você digitou Sul');
+} if(codigo = 2){
+    document.write('Você digitou Norte');
+} if(codigo = 3){
+    document.write('Você digitou Leste');
+} if(codigo = 4){
+    document.write('Você digitou Oeste');
+}
