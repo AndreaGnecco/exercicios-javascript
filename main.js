@@ -99,7 +99,7 @@
 //     alert('NEGATIVO');
 // } else if(num > 0){
 //     alert('POSITIVO');
-// } else if(num == 0){
+// } else{
 //     alert('ZERO');
 // }
 
@@ -125,14 +125,133 @@
 
 // ----------- EXERCICIO 14 - IF SIMPLES -----------
 
-var codigo = parseFloat(prompt('Digite: \n1 = Sul; \n2 = Norte; \n3 = Leste; \n4 = Oeste; \n5 ou 6 = Nordeste; \n7, 8 ou 9 = Sul; \n10 a 20 = Centro-Oeste, \n21 a 30 = Sem definição.'));
+// var codigo = parseFloat(prompt('Digite: \n1 = Sul; \n2 = Norte; \n3 = Leste; \n4 = Oeste; \n5 ou 6 = Nordeste; \n7, 8 ou 9 = Sudeste; \n10 a 20 = Centro-Oeste, \n21 a 30 = Sem definição.'));
 
-if(codigo = 1){
-    document.write('Você digitou Sul');
-} if(codigo = 2){
-    document.write('Você digitou Norte');
-} if(codigo = 3){
-    document.write('Você digitou Leste');
-} if(codigo = 4){
-    document.write('Você digitou Oeste');
-}
+// if(codigo <= 0){
+//     alert('Número negativo ou zero');
+// }
+// if(codigo == 1){
+//     document.write('Você digitou Sul');
+// } if(codigo == 2){
+//     document.write('Você digitou Norte');
+// } if(codigo == 3){
+//     document.write('Você digitou Leste');
+// } if(codigo == 4){
+//     document.write('Você digitou Oeste');
+// } if(codigo <= 6){
+//     document.write('Você digitou Nordeste');
+// } if(codigo <= 9){
+//     document.write('Você digitou Sudeste');
+// } if(codigo <= 20){
+//     document.write('Você digitou Centro-Oeste');
+// } if(codigo <= 30){
+//     document.write('Sem definição');
+// }
+
+// ----------- EXERCICIO 15 - IF ENCADEADO -----------
+
+// var n1 = parseFloat(prompt("Digite sua nota"));
+// var n2 = parseFloat(prompt("Digite sua nota"));
+// var n3 = parseFloat(prompt("Digite sua nota"));
+// var n4 = parseFloat(prompt("Digite sua nota"));
+
+// var media = (n1 + n2 + n3 + n4) / 4;
+
+// if(media >= 7 ) {
+//     document.write("APROVADO");
+// } else if(media >= 5) {
+//     document.write("RECUPERAÇÃO");
+// } else{
+//     document.write("REPROVADO");
+// }
+
+// ----------- EXERCICIO 16 - IF ENCADEADO -----------
+
+// var cargo = parseFloat(prompt("Digite seu cargo: \n1-Produção; \n2-Administrativo; \n3-Diretoria."));
+// var salario = parseFloat(prompt("Digite seu salário"));
+
+// if(cargo == 1){
+//     salario = salario + (salario * 0.065);
+//     document.write(salario);
+// } else if(cargo == 2){
+//     salario = salario + (salario * 0.075);
+//     document.write(salario);
+// } else if(cargo == 3){
+//     salario = salario + (salario * 0.12);
+//     document.write(salario);
+// } else{
+//     alert("Digite o número de um dos três cargos mencionados");
+// }
+
+// ----------- EXERCICIO 17 - IF ENCADEADO -----------
+
+// var number = parseFloat(prompt("Digite um número"));
+
+// if (number % 2 == 0){
+//     document.write(number);
+// } else {
+//     document.write(" ");
+// }
+
+// ----------- EXERCICIO 18 - IF ENCADEADO -----------
+
+// var price = parseFloat(prompt("Digite o preço do produto"));
+// var cod = prompt("Digite o código do produto");
+
+// if(cod == 1){
+//     document.write("Sul");
+// } else if(cod == 2) {
+//     document.write("Norte");
+// } else if(cod == 3){
+//     document.write("Leste");
+// } else if(cod == 4) {
+//     document.write("Oeste");
+// } else if(cod <= 6){
+//     document.write("Nordeste");
+// } else if(cod <= 9){
+//     document.write("Sudeste");
+// } else if(cod <= 20){
+//     document.write("Centro-Oeste");
+// } else if(cod <= 30){
+//     document.write("Sem definição");
+// }
+
+// ----------- EXERCICIO 19 - IF ENCADEADO -----------
+
+// var idade = parseFloat(prompt("Digite a sua idade"));
+
+// if(idade < 0){
+//     alert("Idade inválida")
+// } else if(idade <= 2){
+//     document.write("Recém-nascido");
+// } else if(idade <= 11){
+//     document.write("Criança");
+// } else if(idade <= 19){
+//     document.write("Adolescente");
+// } else if(idade <= 55){
+//     document.write("Adulto");
+// } else{
+//     document.write("Idoso");
+// }
+
+// ----------- EXERCICIO 20 - IF ENCADEADO -----------
+
+// var nome = prompt("Digite seu nome");
+// var cargo = parseInt(prompt("Digite: \n1 Para Escriturário; \n2 Para Secretário; \n3 Para Caixa; \n4 Para Gerente; e \n5 Para Diretor."));
+
+// if(cargo == 1){
+//     document.write(nome + ", Escriturária(o)");
+// } else if(cargo == 2){
+//     document.write(nome + ", Secretário(o)");
+// } else if(cargo == 3){
+//     document.write(nome + ", Caixa");
+// } else if(cargo == 4){
+//     document.write(nome + ", Gerente");
+// } else if (cargo == 5){
+//     document.write(nome + ", Diretor(a)");
+// }
+
+// ----------- EXERCICIO 21 - FOR -----------
+
+
+
