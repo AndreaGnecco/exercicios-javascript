@@ -253,5 +253,33 @@
 
 // ----------- EXERCICIO 21 - FOR -----------
 
+// var somatorio = 0;
+
+// for(x=1; x<=15; x++){
+//     somatorio+=parseInt(prompt("Digite o " + x + "o número"));
+// }
+
+// alert("O somatório é " + somatorio);
+
+// ----------- EXERCICIO 22 - FOR -----------
+
+// var number;
+
+// for(number=0; number<=50; number++){
+//     if(number % 2 == 1){
+//         document.write(number + " ");
+//     }
+//    }
+
+// or
+
+
+// for(var number=1; number<=50; number = number + 2){
+//     document.write(number + " ");
+// }
+
+// ----------- EXERCICIO 23 - FOR -----------
+
+
 
 
