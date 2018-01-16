@@ -281,5 +281,23 @@
 // ----------- EXERCICIO 23 - FOR -----------
 
 
+// var numero = parseInt(prompt("Digite um número"));
 
+// for(i = 1; i<=10; i++){
+//     document.write(numero + " x " + i + " = " + numero * i + "; ");
+// }
 
+// ----------- EXERCICIO 24 - FOR -----------
+// document.write("Tabuada do 1 ao 10: ")
+
+// for (x=1; x<=10; x++){
+//     for(j=1; j<=10;j++){
+//         document.write(x + "x" + j + "= " + x*j + "\n");
+//     }
+// }
+
+// ----------- EXERCICIO 25 - FOR -----------
+ 
+for()
+    
+}
